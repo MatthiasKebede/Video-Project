@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    text-align: center;
+}
+body{
+    background-color: antiquewhite;
+}
