@@ -1,6 +1,7 @@
 # Video-Project
  
-[https://matthiaskebede.github.io/Video-Project/](url)
+https://matthiaskebede.github.io/Video-Project/
+
 Project Name:
 
 Project Description: what is the project, what is the overall concept and theme, and what kind of experience you were striving to create.
