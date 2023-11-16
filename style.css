@@ -1,3 +1,4 @@
+/* HTML Elements */
 *{
     margin: 0;
     padding: 0;
@@ -9,5 +10,40 @@ html{
     text-align: center;
 }
 body{
-    background-color: antiquewhite;
+    background-color: rgb(222, 204, 231);
+}
+header{
+    background-color: blueviolet;
+    height: 10vh;
+    flex-direction: row;
+    row-gap: 5vw;
+}
+footer{
+    background-color: blueviolet;
+    height: 20vh;
+    bottom: 0;
+}
+button{
+    background-color: darkslategrey;
+    height: 6vh;
+    width: 10vw;
+    margin-top: 2vh;
+    margin-left: 5vw;
+}
+
+
+
+/* Classes */
+
+
+
+
+
+
+/* ID */
+#content-area{
+    height: 150vh;
+}
+#vid1{
+    max-height: 100vh;
 }

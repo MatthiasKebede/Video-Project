@@ -5,15 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Video Project</title>
     <link rel="stylesheet" type="text/css" href="./style.css" />
-    <link rel="icon" href="./assets/tape.png"/>
+    <link rel="icon" href="./images/tape.png"/>
 </head>
 <body>
-    <header></header>
+    <header>
+        <div>
+            <button>Home</button>
+            <a href="production.html"><button >Production</button></a>
+        </div>
+    </header>
 
-    <div></div>
+    <div id="content-area">
+        <video id="vid1" src="./videos/30MFF.mp4" muted controls></video>
+        <button onclick="playVid()">Play</button>
+    </div>
 
 
-
+    <!-- <footer></footer> -->
     <script src="./script.js"></script>
 </body>
 </html>
