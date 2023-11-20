@@ -8,6 +8,7 @@ html{
     font-family: 'Times New Roman', Times, serif;
     font-size: medium;
     text-align: center;
+    /* scroll-behavior: smooth; */
 }
 body{
     background-color: rgb(222, 204, 231);
@@ -15,8 +16,10 @@ body{
 header{
     background-color: blueviolet;
     height: 10vh;
-    flex-direction: row;
-    row-gap: 5vw;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
 }
 footer{
     background-color: blueviolet;
@@ -28,22 +31,118 @@ button{
     height: 6vh;
     width: 10vw;
     margin-top: 2vh;
-    margin-left: 5vw;
+    /* margin-left: 5vw; */
 }
 
 
 
 /* Classes */
+.textbox{
+    background-color: blanchedalmond;
+    border: 1px solid black;
+    font-size: large;
+    font-weight: bold;
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    height: 30vh;
+    width: 45%;
+    position: absolute;
+    /* left: -100%; */
+    margin-top: 40%;
+    padding: 2%;
+    opacity: 0;
+    transition: opacity 1s; /*, left 1s;*/
+}
+.fade{
+    opacity: 1;
+    /* left: 0%; */
+}
 
-
-
-
+/* .target{
+    font-size: 12px;
+    transition: font-size 3s;
+}
+.target:hover{
+    font-size: 24px;
+} */
 
 
 /* ID */
+#navbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 30%;
+    margin-left: 70%;
+}
 #content-area{
     height: 150vh;
 }
 #vid1{
-    max-height: 100vh;
+    margin: auto;
+    margin-top: 320vh;
+    width: 30%;
+    z-index: 25;
+}
+#playbutton{
+    position: absolute;
+    top: 380%;
+    right: 22%;
+    z-index: 26;
+}
+#dim{
+    position: fixed;
+	left: 0;
+	top: 0;
+	display: none;
+	opacity: 0.6;
+	background-color: black;
+	width: 100%;
+	height: 100%;
+	z-index: 15;
+}
+
+
+
+
+
+
+
+
+
+/* Temp */
+.image_carousel{
+	text-align: center;
+	max-height: 420px;
+	position: relative;
+    margin-top: 2%;
+    margin-bottom: 10%;
+}
+.image_carousel img{
+	position: relative;
+	max-height: 420px;
+	max-width: 50%;
+}
+.nav_arrow{
+	font-size: large;
+	font-weight: bold;
+	color: white;
+	padding: 12px;
+	transition: 0.4s ease;
+	position: absolute;
+	z-index: 1;
+}
+#previous{
+	top: 45%;
+	float: left;
+}
+#next{
+	top: 45%;
+	float: right;
+	right: 25%;
+}
+#previous:hover, #next:hover{
+	background-color: rgb(86, 0, 126);
 }
