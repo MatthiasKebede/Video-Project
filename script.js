@@ -20,6 +20,16 @@ window.addEventListener("scroll", function() {
         }
     }
 });
+window.addEventListener("scroll", function() {
+    for(let i=0; i<4; i++) {
+        if (textboxes[i].offsetTop - 2*textboxes[i].offsetHeight < this.scrollY) {
+            textboxes[i].classList.add("fade");
+        }
+        else {
+            textboxes[i].classList.remove("fade");
+        }
+    }
+});
 
 
 // // Functions
