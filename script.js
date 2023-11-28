@@ -44,3 +44,9 @@ function textAppear() {
         console.log("unpass");
     }
 }
+function setSelf() {
+    currentvid.setAttribute("src", "./videos/self.mp4")
+}
+function setOther() {
+    currentvid.setAttribute("src", "./videos/other.mp4")
+}

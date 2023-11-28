@@ -10,41 +10,43 @@
 <body>
     <header>
         <span style="position: absolute; top: 2vh; left: 3%; font-size: xx-large; font-weight: bolder;">Logo</span>
-        <span style="position: absolute; top: 1vh; left: 35%; font-size: 42px; font-weight: bolder;">Video Project</span>
+        <span style="position: absolute; top: 1vh; left: 40%; font-size: 42px; font-weight: bolder;">Anxiety</span>
         <div id="navbox">
             <button>Home</button>
             <a href="production.html"><button >Production</button></a>
         </div>
     </header>
 
-    <div id="content-area">
-        <div id="jump-text">
-            <a href="https://unitedgmh.org/">
-                <div id="box1" class="textbox">
-                    <span>Millions of people are affected by mental illness each year. Across the country, many people just like you work, perform, create, compete, laugh, love and inspire every day.
-                    </span>
-                </div>
-            </a>
-            <a href="https://centreforglobalmentalhealth.org/">
-                <div id="box2" class="textbox" style="top: 60%; right: 0;">
-                    <span>In 2019, 1 in every 8 people, or 970 million people around the world were living with a mental disorder, with anxiety and depressive disorders the most common.</span>
-                </div>
-            </a>
-            <a href="https://www.who.int/health-topics/mental-health">
-                <div id="box3" class="textbox" style="top: 120%;">
-                    <span>14.3% of deaths worldwide, or approximately 8 million deaths each year, are attributable to mental disorders.</span>
-                </div>
-            </a>
-            <a href="https://wfmh.global/">
-                <div id="box4" class="textbox" style="top: 180%; right: 0;">
-                    <span>According to WHO, each year an estimated 700,000 people take their own lives - compared to 619,000 people killed by malaria.</span>
-                </div>
-            </a>
-        </div>
-        <div id="vid-area">
-            <video id="vid1" src="./videos/30MFF.mp4" muted controls></video>
-            <button id="playbutton" onclick="playVid()">Play</button>
-        </div>
+    <div id="text-area">
+        <a href="https://unitedgmh.org/">
+            <div id="box1" class="textbox">
+                <span>Millions of people are affected by mental illness each year. Across the country, many people just like you work, perform, create, compete, laugh, love and inspire every day.
+                </span>
+            </div>
+        </a>
+        <a href="https://centreforglobalmentalhealth.org/">
+            <div id="box2" class="textbox" style="top: 60%; right: 0;">
+                <span>In 2019, 1 in every 8 people, or 970 million people around the world were living with a mental disorder, with anxiety and depressive disorders the most common.</span>
+            </div>
+        </a>
+        <a href="https://www.who.int/health-topics/mental-health">
+            <div id="box3" class="textbox" style="top: 120%;">
+                <span>14.3% of deaths worldwide, or approximately 8 million deaths each year, are attributable to mental disorders.</span>
+            </div>
+        </a>
+        <a href="https://wfmh.global/">
+            <div id="box4" class="textbox" style="top: 180%; right: 0;">
+                <span>According to WHO, each year an estimated 700,000 people take their own lives - compared to 619,000 people killed by malaria.</span>
+            </div>
+        </a>
+    </div>
+    
+
+    <div id="vid-area">
+        <video id="vid1" src="./videos/30MFF.mp4" muted controls></video>
+        <button id="playbutton" onclick="playVid()">Play</button>
+        <button id="self-help" onclick="setSelf()">I need help</button>
+        <button id="other-help" onclick="setOther()">I want to help others</button>
     </div>
 
 

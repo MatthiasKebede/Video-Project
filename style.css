@@ -84,8 +84,12 @@ button:hover{
     width: 30%;
     margin-left: 70%;
 }
-#content-area{
+/* #content-area{
     height: 150vh;
+} */
+#vid-area{
+    border: 1px solid black;
+    height: 20vh;
 }
 #vid1{
     margin: auto;
@@ -95,8 +99,9 @@ button:hover{
     z-index: 6;
 }
 #playbutton{
-    position: absolute;
-    top: 380%;
+    /* position: absolute; */
+    /* top: 380%; */
+    position: relative;
     right: 22%;
     z-index: 8;
 }
@@ -111,8 +116,18 @@ button:hover{
 	height: 100%;
 	z-index: 4;
 }
-
-
+#self-help, #other-help {
+    position: absolute;
+    top: 400vh;
+    height: 30vh;
+    width: 15%;
+}
+#self-help {
+    left: 17%;
+}
+#other-help {
+    left: 68%;
+}
 
 
 
