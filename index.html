@@ -3,16 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Video Project</title>
+    <title>Just Breathe</title>
     <link rel="stylesheet" type="text/css" href="./style.css" />
-    <link rel="icon" href="./images/tape.png"/>
+    <link rel="icon" href="./images/anxiety.png"/>
 </head>
 <body>
     <header>
-        <span style="position: absolute; top: 2vh; left: 3%; font-size: xx-large; font-weight: bolder;">Logo</span>
-        <span style="position: absolute; top: 1vh; left: 40%; font-size: 42px; font-weight: bolder;">Anxiety</span>
+        <img id="logo" src="./images/anxiety.png">
+        <span id="title-text">Anxiety</span>
         <div id="navbox">
-            <button>Home</button>
+            <a href="index.html"><button>Home</button></a>
             <a href="production.html"><button >Production</button></a>
         </div>
     </header>
@@ -43,10 +43,12 @@
     
 
     <div id="vid-area">
-        <video id="vid1" src="./videos/30MFF.mp4" muted controls></video>
-        <button id="playbutton" onclick="playVid()">Play</button>
-        <button id="self-help" onclick="setSelf()">I need help</button>
-        <button id="other-help" onclick="setOther()">I want to help others</button>
+        <video id="vid1" src="./videos/Scene1.mp4" muted controls></video>
+        <div style="position: relative; top: -75%; height: 50%;">
+            <!-- <button id="playbutton" onclick="playVid()">Play</button> -->
+            <button id="self-help" onclick="setSelf()">I need help</button>
+            <button id="other-help" onclick="setOther()">I want to help others</button>
+        </div>
     </div>
 
 

@@ -24,16 +24,16 @@ window.addEventListener("scroll", function() {
 
 // // Functions
 // Play the video (or pause if already playing)
-function playVid() {
-    if (currentvid.paused) {
-        currentvid.play();
-        dimmer.style.display = "block";
-    }
-    else {
-        currentvid.pause();
-        dimmer.style.display = "none"
-    }
-}
+// function playVid() {
+//     if (currentvid.paused) {
+//         currentvid.play();
+//         dimmer.style.display = "block";
+//     }
+//     else {
+//         currentvid.pause();
+//         dimmer.style.display = "none"
+//     }
+// }
 function textAppear() {
     if (window.scrollY > 200) {
         this.style.display = "block";
@@ -45,8 +45,12 @@ function textAppear() {
     }
 }
 function setSelf() {
-    currentvid.setAttribute("src", "./videos/self.mp4")
+    if (currentvid.getAttribute("src") != "./videos/Scene1 (1).mp4") {
+        currentvid.setAttribute("src", "./videos/Scene1 (1).mp4")
+    }
 }
 function setOther() {
-    currentvid.setAttribute("src", "./videos/other.mp4")
+    if (currentvid.getAttribute("src") != "./videos/Video3Trim.mp4") {
+        currentvid.setAttribute("src", "./videos/Video3Trim.mp4")
+    }
 }
