@@ -5,11 +5,24 @@ console.log("check");
 // // HTML Elements
 let currentvid = document.getElementById("vid1");
 let dimmer = document.getElementById("dim");
+let dimmer = document.getElementById("dim");
 
+// HTML collections 
+let textboxes = document.getElementsByClassName("textbox")
 // HTML collections 
 let textboxes = document.getElementsByClassName("textbox")
 
 // // Event Listeners
+window.addEventListener("scroll", function() {
+    for(let i=0; i<4; i++) {
+        if (textboxes[i].offsetTop - 2*textboxes[i].offsetHeight < this.scrollY) {
+            textboxes[i].classList.add("fade");
+        }
+        else {
+            textboxes[i].classList.remove("fade");
+        }
+    }
+});
 window.addEventListener("scroll", function() {
     for(let i=0; i<4; i++) {
         if (textboxes[i].offsetTop - 2*textboxes[i].offsetHeight < this.scrollY) {
@@ -27,6 +40,7 @@ window.addEventListener("scroll", function() {
 function playVid() {
     if (currentvid.paused) {
         currentvid.play();
+        dimmer.style.display = "block";
         dimmer.style.display = "block";
     }
     else {
