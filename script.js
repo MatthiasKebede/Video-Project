@@ -55,12 +55,12 @@ function textAppear() {
     }
 }
 function setSelf() {
-    if (currentvid.getAttribute("src") != "./videos/Video2CommLab.mp4") {
-        currentvid.setAttribute("src", "./videos/Video2CommLab.mp4")
+    if (currentvid.getAttribute("src") != "videos/Video2CommLab.mp4") {
+        currentvid.setAttribute("src", "videos/Video2CommLab.mp4")
     }
 }
 function setOther() {
-    if (currentvid.getAttribute("src") != "./videos/Video3CommLab.mp4") {
-        currentvid.setAttribute("src", "./videos/Video3CommLab.mp4")
+    if (currentvid.getAttribute("src") != "videos/Video3CommLab.mp4") {
+        currentvid.setAttribute("src", "videos/Video3CommLab.mp4")
     }
 }
