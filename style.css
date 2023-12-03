@@ -5,57 +5,75 @@
 }
 html{
     color: black;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Noto Sans Linear A', sans-serif;
     font-size: medium;
     text-align: center;
     /* scroll-behavior: smooth; */
 }
 body{
     /* background-color: rgb(31,86,93); */
-    background-image: linear-gradient(rgb(174, 248, 213), rgb(122,193,160));
+    /* background-image: linear-gradient(rgb(174, 248, 213), rgb(122,193,160)); */
+    background-color: black;
 }
 header{
-    background-color: rgb(205, 255, 231);
-    height: 10vh;
+   
+    background-color: black;
+    height: 7vh;
+    opacity:70%;
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 10;
+    border-bottom: 2px solid #e7e7e7;
 }
-button{
-    background-color: rgb(126, 135, 206);
+/* button{
+    color: #e7e7e7;
     height: 6vh;
     width: 10vw;
-    margin-top: 2vh;
+    margin-top: 2vh; */
     /* margin-left: 5vw; */
-    transition: background-color 0.3s;
-}
-button:hover{
-    background-color: rgb(56, 91, 155);
-}
+    /* background-color: transparent;
+    border-style: x; */
+/*button:hover{
+    color: blue;
+    font-weight: 15px;
+    transition: font-weight 0.3s;
+} */
 
 
 
 /* Classes */
+.button-header{
+    color: #e7e7e7;
+    height: 6vh;
+    width: 10vw;
+    margin-top: 2vh; 
+    text-decoration: none;
+}
+.button-header:hover{
+    color: rgb(138, 105, 228);
+    font-weight: 15px;
+    transition: font-weight 0.3s;
+}
 .textbox{
-    background-color: rgb(130, 195, 182);
-    border: 5px solid rgb(186, 241, 254);
+    /* background-color: rgb(130, 195, 182); */
+    /* border: 5px solid rgb(186, 241, 254); */
     font-size: large;
     font-weight: bold;
-    color: black;
+    color: rgb(245, 177, 177);
     display: flex;
     flex-wrap: wrap;
     align-content: center;
     height: 30vh;
     width: 45%;
-    position: absolute;
-    margin-top: 40%;
+    /* position: absolute; */
+    margin: auto;
+    margin-top: 5%;
     padding: 2%;
     opacity: 0;
-    transition: opacity 1s, color 1s, background-color 1s;
+    transition: opacity 1s, color 1s;
 }
 .textbox:hover{
-    background-color: rgb(35,50,83);
     color: whitesmoke;
 }
 .fade{
@@ -67,26 +85,58 @@ button:hover{
 /* ID */
 #logo{
     position: absolute;
-    top: 0;
+    /* top: 42%; */
     left: 2%;
-    max-height: 64px;
+    max-height: 42px;
 }
+
+#logo:hover {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
 #title-text{
+    z-index: 20;
     position: absolute;
-    top: 1vh;
-    left: 10%;
-    font-size: 42px;
+    top:9px;
+    left: 20%;
+    font-size: 20px;
     font-weight: bolder;
+    color: #e7e7e7;
 }
 #navbox{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     width: 30%;
-    margin-left: 70%;
+    margin-left: 60%;
+}
+#wordcloud:hover{
+    cursor: pointer;
+}
+#wordcloud-container{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+#google-trends-container{
+    overflow: visible;
+   
+}
+iframe#trends-widget-1 {
+    width: 30%;
+    height: 320px;
+    border-radius: 5%;
+    object-fit: cover;
 }
 #text-area{
-    height: 350vh;
+    height: 200vh;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30vh;
 }
 #vid-area{
     height: 100vh;
@@ -99,24 +149,6 @@ button:hover{
     /* max-width: 960px;
     min-width: 480px; */
     z-index: 6;
-}
-/* #playbutton{
-    position: absolute;
-    top: 80%;
-    right: 18%;
-    z-index: 8;
-    margin: 0;
-} */
-#dim{
-    position: fixed;
-	left: 0;
-	top: 0;
-	display: none;
-	opacity: 0.6;
-	background-color: black;
-	width: 100%;
-	height: 100%;
-	z-index: 4;
 }
 #self-help, #other-help {
     background-color: rgb(68, 140, 150);

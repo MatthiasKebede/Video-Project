@@ -5,6 +5,7 @@ console.log("check");
 // // HTML Elements
 let currentvid = document.getElementById("vid1");
 let dimmer = document.getElementById("dim");
+let video = document.getElementById("wordcloud");
 
 // HTML collections 
 let textboxes = document.getElementsByClassName("textbox")
@@ -30,6 +31,44 @@ window.addEventListener("scroll", function() {
         }
     }
 });
+video.addEventListener("click",function(){
+    if(video.paused){
+        video.play();
+    }
+});
+
+
+// // Flag to track whether the video has ended
+// var videoEnded = false;
+// var scrollingTimeout;
+
+// // Listen for video ended event
+// video.addEventListener("ended", function() {
+//     videoEnded = true;
+// });
+
+// // Listen for scroll events
+// document.addEventListener("scroll", function(event) {
+//     // Scroll only when the video has ended
+//     if (videoEnded) {
+//     } else {
+//         // Prevent the default scroll behavior
+//         event.preventDefault();
+//         event.stopPropagation();
+//         //play the video when scrolling
+//         video.play();
+//         var scrollSpeed = window.scrollY / 100; // Adjust the scroll speed
+//         video.playbackRate = 1 + scrollSpeed;
+//         // Reset the scrolling timeout
+//         clearTimeout(scrollingTimeout);
+//         scrollingTimeout = setTimeout(function() {
+//             // Pause the video when scrolling stops
+//             video.pause();
+//         }, 200); 
+//     }
+// });
+
+
 
 
 // // Functions
@@ -64,3 +103,6 @@ function setOther() {
         currentvid.setAttribute("src", "https://media.githubusercontent.com/media/MatthiasKebede/Video-Project/main/videos/Video3CommLab.mp4")
     }
 }
+
+
+    
