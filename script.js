@@ -24,7 +24,7 @@ window.addEventListener("scroll", function() {
     }
     // typewrite text
     for (let i=0; i<2; i++) {
-        if (this.scrollY > 460) {
+        if (this.scrollY > 800) {
             typewritertext[i].classList.add("fade");
         }
         else {
