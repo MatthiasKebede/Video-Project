@@ -4,7 +4,7 @@
     padding: 0;
 }
 html{
-    color: black;
+    color: whitesmoke;
     font-family: 'Noto Sans Linear A', sans-serif;
     font-size: medium;
     text-align: center;
@@ -110,6 +110,9 @@ header{
     justify-content: space-evenly;
     width: 30%;
     margin-left: 60%;
+}
+#wordcloud{
+    max-height: 100%;
 }
 #wordcloud:hover{
     cursor: pointer;

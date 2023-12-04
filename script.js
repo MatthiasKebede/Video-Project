@@ -9,6 +9,7 @@ let video = document.getElementById("wordcloud");
 
 // HTML collections 
 let textboxes = document.getElementsByClassName("textbox")
+let typewritertext = document.getElementsByClassName("typewriter-text");
 
 // // Event Listeners
 window.addEventListener("scroll", function() {
@@ -22,12 +23,12 @@ window.addEventListener("scroll", function() {
     }
 });
 window.addEventListener("scroll", function() {
-    for(let i=0; i<4; i++) {
-        if (textboxes[i].offsetTop - 2*textboxes[i].offsetHeight < this.scrollY) {
-            textboxes[i].classList.add("fade");
+    for (let i=0; i<2; i++) {
+        if (typewritertext[i].offsetTop < this.scrollY) {
+            typewritertext[i].classList.add("fade");
         }
         else {
-            textboxes[i].classList.remove("fade");
+            typewritertext[i].classList.remove("fade");
         }
     }
 });
