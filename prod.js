@@ -3,6 +3,7 @@ let i = 0; let j = 0;
 let img = document.querySelector(".carousel_image");
 let img2 = document.getElementById("car2");
 
+let spanBckgr = document.getElementById("span-bckgr");
 let spanTitle = document.getElementById("span-title");
 let span1 = document.getElementById("span-1");
 let span2 = document.getElementById("span-2");

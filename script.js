@@ -13,6 +13,7 @@ let typewritertext = document.getElementsByClassName("typewriter-text");
 
 // // Event Listeners
 window.addEventListener("scroll", function() {
+    // textboxes
     for(let i=0; i<4; i++) {
         if (textboxes[i].offsetTop - 2*textboxes[i].offsetHeight < this.scrollY) {
             textboxes[i].classList.add("fade");
@@ -21,10 +22,9 @@ window.addEventListener("scroll", function() {
             textboxes[i].classList.remove("fade");
         }
     }
-});
-window.addEventListener("scroll", function() {
+    // typewrite text
     for (let i=0; i<2; i++) {
-        if (typewritertext[i].offsetTop < this.scrollY) {
+        if (this.scrollY > 800) {
             typewritertext[i].classList.add("fade");
         }
         else {
