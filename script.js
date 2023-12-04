@@ -6,6 +6,7 @@ console.log("check");
 let currentvid = document.getElementById("vid1");
 let dimmer = document.getElementById("dim");
 let video = document.getElementById("wordcloud");
+let text=document.getElementsByClassName("typewrite-text");
 
 // HTML collections 
 let textboxes = document.getElementsByClassName("textbox")
@@ -30,6 +31,9 @@ window.addEventListener("scroll", function() {
         else {
             typewritertext[i].classList.remove("fade");
         }
+    }
+    if(893<this.scrollY){
+        text[0].classList.add("text-animation");
     }
 });
 video.addEventListener("click",function(){
