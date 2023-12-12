@@ -11,9 +11,9 @@ Our project addresses the topic of anxiety. As university students, mental healt
 We created a series of videos showing an example of what anxiety might look like, ways to manage your own anxiety, and how you can help others if you are in the position of a concerned friend. The main page scrolls vertically, showing statistics to show the user that they are not alone in their struggle, and each box links to a different mental health organization. The video is at the bottom, and you can select the video for self-help or to help others. The colours used were intially dark blues and greens to match the topic of anxiety, but were changed to lighter shades to give it a more hopeful feeling.
 
 #### Challenges:
-##### Filming:   
+#### Filming:   
 
-##### Video Editing:
+#### Video Editing:
 
 
 #### Reflection/Evaluation: 
