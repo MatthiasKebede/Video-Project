@@ -12,6 +12,9 @@ Our project falls under option 3: "A HOW TO..." video which addresses How To Nav
 ### Process: How did you go about implementing the concept?
 We created a series of videos showing an example of what anxiety might look like, ways to manage your own anxiety, and how you can help others if you are in the position of a concerned friend. The main page scrolls vertically, showing statistics to show the user that they are not alone in their struggle, and each box links to a different mental health organization. The video is at the bottom, and you can select the video for self-help or to help others. The colors used were initially dark blues and greens to match the topic of anxiety, but were changed to lighter shades to give it a more hopeful feeling.
 
+Additionally, the anxiety video, our main promotional video on how anxiety-attack looks like in a person, is designed and edited to work as a visual and audio representation of how anxiety attack feels like to a person. The video is supposed to be anxiety-inducing, so please watch the video with caution and pause it if you are uncomfortable. Navigate to the help videos if you can relate to the promo-video.
+
+
 ### Challenges:
   1. Getting the emotions into the main character for the promo video was very difficult
   2. Writing the script for the promo video and aligning the scenes one after another to translate an anxiety attack visually and audibly to the audience
