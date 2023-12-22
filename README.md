@@ -7,6 +7,8 @@ https://matthiaskebede.github.io/Video-Project/
 ### Project Description: what is the project, what is the overall concept and theme, and what kind of experience you were striving to create?
 Our project addresses the topic of anxiety. As university students, mental health is an extremely important facet of our lives that can be difficult to manage. We aimed to create an experience that lets the user know that they aren't alone and that there are resources out there to help with whatever they may be going through. Additionally, for people who have friends or family around them with anxiety, our website and video project aims to educate them about what an anxiety attack looks like and help them to empathize better with their loved ones who have an anxiety disorder.
 
+Our project falls under option 3: "A HOW TO..." video which addresses How To Navigate Anxiety Disorder: In First and Third Person.
+
 ### Process: How did you go about implementing the concept?
 We created a series of videos showing an example of what anxiety might look like, ways to manage your own anxiety, and how you can help others if you are in the position of a concerned friend. The main page scrolls vertically, showing statistics to show the user that they are not alone in their struggle, and each box links to a different mental health organization. The video is at the bottom, and you can select the video for self-help or to help others. The colors used were initially dark blues and greens to match the topic of anxiety, but were changed to lighter shades to give it a more hopeful feeling.
 
